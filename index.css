@@ -118,10 +118,57 @@ h2{
 h3{
 	transform: rotate(270deg);
 	font-size: 35px;
-	margin-right: 755px;
-	margin-top: 250px;-
+	margin-top: 17px;
+	margin-left: 140px;
 }
 .vertical{
 	display: flex;
 	justify-content: space-between;
+}
+.vert{
+	width: 350px;
+	margin-left: -340px;
+	margin-top: 117px;
+	line-height: 1.35;
+}
+.verts{
+	width: 350px;
+	margin-left: -340px;
+	margin-top: 20px;
+	line-height: 1.35;
+}
+.ver{
+	width: 340px;
+	height: 530px;
+	margin-right: 40px;
+    margin-top: -30px;
+}
+.verticalnii{
+	display: none;
+}
+#multif{
+	width: 340px;
+	height: 500px;
+	margin-right: 40px;
+    margin-top: -30px;
+}
+#class{
+	width: 340px;
+	height: 530px;
+	margin-right: 40px;
+    margin-top: -30px;
+
+}
+.clas{
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	background-color:  #FFAA00;
+	margin-top: -60px;
+}
+.mult{
+	margin-left: 540px;
+	width: 130px;
+	height: 30px;
+	border-radius: 5px;
 }
