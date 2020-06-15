@@ -251,26 +251,173 @@ h4{
 	margin-left: 11px;
 	margin-top: -30px;
 }
-.plis{
-    width: 120px;
-    height: 260px;
-    margin-top: 43px;
-}
-.ples{
-	border:none;
-	background-color: white;
-}
-#onclick{
-	width: 318px;
-	height: 260px;
-	margin-top: 43px;
-	margin-left: -1310px;
-}
 h5{
 	transform: rotate(270deg);
-	margin-left: 230px;
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 10px;
+	letter-spacing: 10px;
 }
 .plisses{
+	margin-top: 100px;
+	display: flex;
+	justify-content: flex-end;
+	width: 440px;
+	height: 300px;
+}
+#click, #onclick{
+	position: relative;
+	border:none;
+	background: none;
+	outline: none;
+}
+#click, #onclick img{
+	width: 100%;
+}
+#click img{
+	height: 100%;
+}
+#onclick img{
+	height: 100%;
+}
+.block{
 	display: flex;
 	justify-content: space-between;
+}
+.pov{
+	width: 440px;
+}
+p.eye{
+	width: 360px;
+	margin-top: 197px;
+	margin-left: 80px;
+	line-height: 1.35;
+}
+.moskitnaya{
+	margin-top: 150px;
+	display: flex;
+	justify-content: space-between;
+}
+.gorizs{
+	margin-top: -22px;
+	width: 350px;
+    line-height: 1.35;
+    margin-left: 46px;
+}
+.moskit{
+	width: 400px;
+	height: 400px;
+	margin-left: 20px;
+}
+.mos{
+	margin-top: 85px;
+}
+h6{
+	font-size: 30px;
+	margin-top: 150px;
+	margin-left: 200px;
+}
+.shtori{
+	background-color: lightgray;
+	height: 400px;
+	width: 100%
+}
+.sbz{
+	font-size: 30px;
+	margin-top: 50px;
+	margin-left: 300px;
+}
+.input{
+	width: 200px;
+    margin-left: 150px;
+}
+input[type=email]{
+	border-radius: 4px;
+	border-color: black;
+	width: 200px;
+	border-width: 1px;
+	height: 20px;
+}
+textarea{
+	border-radius: 4px;
+	border-color: black;
+	width: 197px;
+	height: 100px;
+}
+input[type=submit]{
+	border-radius: 5px;
+	background-color: #FFAA00; 
+	width: 90px;
+	height: 30px;
+	outline: none;
+}
+.tels{
+	display: flex;
+	justify-content: space-between;
+}
+.tel1{
+	font-size: 30px;
+	color: black;
+}
+.tel2{
+	font-size: 30px;
+	color: black;
+}
+.tel{
+	width: 250px;
+	margin-right: 100px;
+	margin-top: 10px;
+	line-height: 40px;
+}
+footer{
+	background-color: black;
+}
+.footer{
+	width: 220px;
+	margin-left: 20px;
+}
+.zal{
+    color: #FFAA00; 
+    font-size: 18px;
+}
+.fot{
+	display: flex;
+	justify-content: space-between;
+}
+.ob{
+	width: 220px;
+	margin-left: -100px;
+}
+.oboi{
+	 color: #FFAA00; 
+    font-size: 18px;
+}
+.texp{
+	width: 120px;
+	margin-left: -100px;
+}
+h1.tex{
+	color: #FFAA00;
+	font-size: 18px;
+	width: 220px;
+}
+.int{
+	width: 220px;
+}
+.inter{
+	color: #FFAA00;
+	font-size: 18px;
+}
+.outline{
+
+	color: white;
+	outline: none;
+	text-decoration: none;
+}
+.outlines{
+	font-size: 35px;
+	color: white;
+	outline: none;
+	text-decoration: none;
+	margin-left: 10px;
 }
