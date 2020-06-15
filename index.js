@@ -16,12 +16,10 @@ function Multic(){
 	document.getElementById("class").classList.add("img");
 }
 function Plis(){
-	document.getElementById("onclick").classList.add("img");
-	document.getElementById("click").classList.remove("img");
-	document.getElementById("zag").classList.remove("img");
+	document.getElementById("onclick").classList.remove("img");
+	document.getElementById("click").classList.add("img");
 }
 function Plisse(){
-	document.getElementById("click").classList.add("img");
-	document.getElementById("zag").classList.add("img");
-    document.getElementById("onclick").classList.remove("img");
+	document.getElementById("click").classList.remove("img");
+    document.getElementById("onclick").classList.add("img");
 }
