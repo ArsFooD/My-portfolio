@@ -75,7 +75,12 @@ input[type=text]{
 }
 .itog{
 	font-size: 20px;
-	margin-right: 164px;
+	margin-top: 20px;
+	margin-left: 10px
+}
+#result-multi{
+	margin-right: 210px;
+	margin-top: 25px;
 }
 .alum{
 	margin-top: 104px;
@@ -420,4 +425,12 @@ h1.tex{
 	outline: none;
 	text-decoration: none;
 	margin-left: 10px;
+}
+.slider{
+	position: absolute;
+	width: 400px;
+	margin-left: 56px;
+}
+.slider-hide{
+	margin-top: -255px;
 }

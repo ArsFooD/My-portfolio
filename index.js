@@ -23,3 +23,18 @@ function Plisse(){
 	document.getElementById("click").classList.remove("img");
     document.getElementById("onclick").classList.add("img");
 }
+
+
+
+var input1, input2, result;
+function multi(){
+input1 = document.getElementById("int-1").value;
+input2 = document.getElementById("int-2").value;
+result = input1*2000+input2*500;
+document.getElementById("result-multi").innerHTML=result;
+}
+
+function Vid2(){
+	document.getElementById("vid-1").classList.remove("slider-hide");
+	document.getElementById("vid-1").classList.add("slider");
+}
