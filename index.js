@@ -38,3 +38,6 @@ function Vid2(){
 	document.getElementById("vid-1").classList.remove("slider-hide");
 	document.getElementById("vid-1").classList.add("slider");
 }
+function Vid1(){
+		document.getElementById("vid-1").classList.add("slider-hide");
+}
