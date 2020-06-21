@@ -11,22 +11,24 @@
 			<a class="outlines" href="index.html">Главная</a>
 		</div>
 		<div class="content">
+			<img src="электро-жалюзи вид 2.png" class="slider slider-hide" id="vid-1">
 			<section class="electric">
 				<div>
 				<h1>Электро-жалюзи</h1>
 				<p class="electro">С помощью одного пульта можно управлять жалюзи быстро и легко, не вставая с кресла. Возможность контролировать освещенность помещения всего одним нажатием кнопки. Такие жалюзи особенно хороши для труднодоступных окон.</p>
-				<button class="button">Опустить</button>
+				<button class="button" onclick="Vid2()">Опустить</button>
 				</div>
 				<div class="select">
 					<select>
 						<option>Электро-жалюзи</option>
 						<option>Шторы</option>
 					</select>
-					<input type="text" placeholder="Введите ширину в метрах...">
-					<input type="text" placeholder="Введите высоту в метрах...">
+					<input id="int-1" type="text" placeholder="Введите ширину в метрах...">
+					<input id="int-2" type="text" placeholder="Введите высоту в метрах...">
 					<div class="buttons">
-						<button class="prog">Посчитать</button>
-						<p class="itog">Итого:</p>
+						<button class="prog" onclick="multi()">Посчитать</button>
+						<section class="itog">Итого:</section>
+						<section class="resultat" id="result-multi"></section>
 					</div>
 				</div>
 			</section>
