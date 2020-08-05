@@ -67,12 +67,16 @@ main{
     height: 50px; 
 }
 .dos{
+    position: absolute;
     top: 17px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    color: #212121;
+    color: black;
     font-size: 16px;
+}
+.dock{
+    left: 10px;
 }
