@@ -1,0 +1,111 @@
+body{
+	display: flex;
+	justify-content: center;
+	margin:0;
+}
+main{
+	width: 1366px;
+	background-color: gray;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+header{
+	width: 1170px;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+nav{
+	width: 405px;
+	display: flex;
+	justify-content: space-between;
+}
+a{
+	font-size: 16px;
+	text-decoration: none;
+	color:  #1A212F;
+}
+section:nth-of-type(1){
+	width: 100%;
+	height: 504px;
+	background-color: lightgray;
+	display: flex;
+	align-items: center;
+	background-image: url("../resourses/Group_51.png");
+}
+section:nth-of-type(1) div{
+	width: 346px;
+	margin-left: 198px;
+}
+section:nth-of-type(1) h1{
+	font-size: 62px;
+}
+section:nth-of-type(1)>div>p:first-of-type{
+	font-size: 14px;
+}
+section:nth-of-type(1)>div>p:last-of-type{
+	font-size: 20px;
+}
+.paw{
+	background-color: white;
+	border-radius: 14px;
+	font-size: 20px;
+	align-items: center;
+	display: flex;
+}
+.we{
+	font-size: 27px;
+	margin-top: 140px;
+	margin-bottom: 70px;
+}
+section:nth-of-type(2){
+	width: 1170px;
+	background-color: palegreen;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+section:nth-of-type(2) div:nth-of-type(1){
+	width: 346px;
+	height: 100%
+	margin-left: 198px;
+	width: 370px;
+}
+section:nth-of-type(2) div:nth-of-type(2){
+	width: 346px;
+	height: 100%
+	margin-left: 198px;
+	width: 370px;
+}section:nth-of-type(2) div:nth-of-type(3){
+	width: 346px;
+	height: 100%
+	margin-left: 198px;
+	width: 370px;
+}
+section:nth-of-type(3){
+	width: 1170px;
+	background-color: palegreen;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+section:nth-of-type(3) div:nth-of-type(1){
+	width: 346px;
+	height: 100%
+	margin-left: 198px;
+	width: 370px;
+}
+section:nth-of-type(3) div:nth-of-type(2){
+	width: 346px;
+	height: 100%
+	margin-left: 198px;
+	width: 370px;
+}section:nth-of-type(3) div:nth-of-type(3){
+	width: 346px;
+	height: 100%
+	margin-left: 198px;
+	width: 370px;
+}
