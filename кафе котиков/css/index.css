@@ -5,7 +5,6 @@ margin:0;
 }
 main{
 width: 1366px;
-background-color: gray;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -32,6 +31,11 @@ h2{
 font-size: 36px;
 margin-top: 140px;
 margin-bottom: 70px;
+font-family: sans-serif;
+}
+h1{
+	font-family: sans-serif;
+	font-size: 36px;
 }
 section:nth-of-type(1){
 width: 100%;
@@ -75,7 +79,6 @@ margin-left: 30px;
 }
 section:nth-of-type(2){
 width: 1170px;
-background-color: palegreen;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -86,20 +89,27 @@ height: 321px;
 width: 370px;
 background-color: white;
 margin-bottom: 20px;
+box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+border-radius: 8px;
+box-sizing: border-box;
+padding-left: 30px;
+padding-top: 30px;
+padding-right: 50px;
 }
 section:nth-of-type(3){
 width: 1030px;
 height: 578px;
-background-color: lightblue;
 display: flex;
 align-items: center;
 }
 .slide{
 width: 1030px;
 height: 404px;
-background: orange;
 display: flex;
 align-items: center;
+}
+.slide h1{
+	margin-top: 40px;
 }
 .slide>img{
 	width: 600px;
@@ -109,9 +119,12 @@ align-items: center;
 	width: 500px;
 	height: 284px;
 	margin-left: -70px;
-	background-color: lightgrey;
+	background-color: white;
 	flex-direction: column;
 	display: flex;
+	padding-left: 100px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
 }
 div.owl-carousel .owl-item img{
 	width: 600px;
@@ -137,12 +150,9 @@ div.owl-carousel .owl-item img{
 	width: 48px;
 	height: 24px;
 }
-li{
-	font-size: 16px;
-	line-height: 19px;
-}
 .paw2{
-background-color: orange;
+background-color: #FF7236;
+background-image: url(../resourses/knopa.svg);
 border-radius: 25px;
 border: none;
 outline: none;
@@ -150,7 +160,61 @@ margin-top: 40px;
 font-size: 20px;
 align-items: center;
 display: flex;
-justify-content: flex-end;
+justify-content: flex-start;
+padding-left: 15px;
 width: 206px;
 height: 50px;
+background-repeat: no-repeat;
+background-position: center right 10px;
+margin-top: 20px;
+}
+li{
+	font-size: 16px;
+	list-style: none;
+	line-height: 19px;
+	margin-bottom: 10px;
+}
+li::before{
+	content: url(../resourses/limg.svg);
+	margin-right: 8px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+section:nth-of-type(5){
+	width: 1366px;
+	height: 580px;
+	display: flex;
+	justify-content: space-between;
+}
+section:nth-of-type(5)>div:first-of-type{
+	background-color: #FAC663;
+	width: 568px;
+	height: 580px;
+	padding-left: 198px;
+}
+h3{
+	font-family: sans-serif;
+}
+section:nth-of-type(5)>div:first-of-type>img{
+	margin-right:20px;
+}
+section:nth-of-type(5)>div:first-of-type>h3:first-of-type{
+	margin-top: 50px;
+}
+.margin{
+	margin-top: 35px;
+}
+section:nth-of-type(5)>div:first-of-type>h1{
+	margin-top: 60px;
+}
+footer{
+	width: 1366px;
+	height: 125px;
+}
+footer>div:first-of-type{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 12px;
 }
