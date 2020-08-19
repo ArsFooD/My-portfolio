@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TrashFlix</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="menu.css">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300|Oswald|Sen&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="width-site">
+		<header>
+			<div class="elem1-1">
+				<figure title="Главная">
+					<a href="index.html"><img src="logo.svg"></a>
+					<figcaption>TRASHFLIX</figcaption>
+				</figure>
+				<button class="menu-button"onclick="color()">
+					<img src="menu.svg">
+					<br>
+					<p class="menu-text">menu<p>
+				</button>
+
+				<input type="search" name="search" placeholder="Поиск..." >
+			</div>
+			<a href="z.html"><button class="button" style="margin-right: 410px; height: 35px; margin-bottom: 32px; margin-top: 32px; ">Оформить подписку</button>
+			<div></a>
+				<a href="#" class="sign-in-a">sign up</a>
+				<button class="sign-in-button" onclick="name1()">sign in</button>
+			</div>
+		</header>
+		<div class="n">
+		<img src="contact.svg"><h5>+79006500501</h5>
+			<p>
+			  Звонок бесплатный
+			</p>
+			</div>
+		<aside>
+		<img src="cinema.jpg" class="thumbnail">
+		</aside>
+       <div class="a">
+		<div>
+		</div>
+		<div">
+			<h4>Мы на карте</h4>
+			<p>Наш кинотеатр TrashFlix находится в городе Кудрово. На Ленинградской улице 3 дома вы сможете насладится новинками текущего месяца!</p>
+		<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae547a2f00fb9f8c7074c08b8d670e3f97f17e133c36ac0f8b99bc7fe81d85281&amp;source=constructor" width="100%" height="500" frameborder="0"></iframe>
+		</div>
+		</div>
+		 <a href="#" title="Вернутся на верх" class="buttonup"><img src="up.svg"></a>
+<nav id="nav-menu">
+	<ul>
+		<li><a href="index.html">Главная</a></li>
+		<li><a href="x.html">Каталог</a></li>
+		<li>Личный кабинет</a></li>
+		<li><a href="z.html">Подписка</a></li>
+		<li><a href="y.html">О нас</a></li>
+		<li>Настройки</li>
+		<li>Помощь</li>
+		<li><button class="button">Выйти</button></li>
+	</ul>
+</nav>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+	<script type="text/javascript">
+        var image = document.getElementsByClassName('thumbnail');
+        new simpleParallax(image);
+    </script>
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="slideMenu.js"></script>
+</body>
+</html>

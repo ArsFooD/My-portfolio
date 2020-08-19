@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TrashFlix</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="menu.css">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300|Oswald|Sen&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" > </script>
+ <script src="js/owl.carousel.min.js"></script>
+ <script type="text/javascript">
+           $(document).ready(function(){
+         const slider = $("#slider").owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+            }
+            });
+                    });
+ </script>
+</head>
+<body>
+	<div class="width-site">
+		<header>
+			<div class="elem1-1">
+				<figure>
+					<a href="index.html"><img src="logo.svg"></a>
+					<figcaption>TRASHFLIX</figcaption>
+				</figure>
+				<button class="menu-button"onclick="color()">
+					<img src="menu.svg">
+					<br>
+					<p class="menu-text">menu<p>
+				</button>
+
+				<input type="search" name="search" placeholder="Поиск..." >
+			</div>
+			<a href="z.html"><button class="button" style="margin-right: 410px; height: 35px; margin-bottom: 32px; margin-top: 32px; ">Оформить подписку</button>
+			<div></a>
+				<a href="#" class="sign-in-a">sign up</a>
+				<button class="sign-in-button" onclick="name1()">sign in</button>
+			</div>
+		</header>
+		<aside>
+			<img src="slide-4.jpg">
+		</aside>
+		<section>
+	    <div class="sub">
+				<div class="sub-block">
+					<img src="sub7.jpg">
+						<h3>Форсаж: Хобс и Шоу</h3>
+						<p>Люк Хоббс — американский элитный спецагент, он любит удобную спортивную одежду, большие пикапы и здоровое питание. Декард Шоу — британский пижон, бывший сотрудник разведки, предпочитает дорогие костюмы, спортивные авто и пабы.Им приходится отложить старые счеты, чтобы победить общего врага, который угрожает их близким и всему миру.
+						</p>
+				</div>
+			</div>
+			 <div class="subs" style="width: 66%; height: 30%padding: 15px;margin: 0;display: flex;flex-direction: column;background-color: #501367;">
+				<div class="sub-block">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/s1UeWtVOcFw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				</div>
+			</div>
+	    </section>
+	    <a href="#" title="Вернутся на верх" class="buttonup"><img src="up.svg"></a>
+ <nav id="nav-menu">
+	<ul>
+		<li><a href="index.html">Главная</a></li>
+		<li><a href="x.html">Каталог</a></li>
+		<li>Личный кабинет</a></li>
+		<li><a href="z.html">Подписка</a></li>
+		<li><a href="y.html">О нас</a></li>
+		<li>Настройки</li>
+		<li>Помощь</li>
+		<li><button class="button">Выйти</button></li>
+	</ul>
+ </nav>
+    </div>
+	<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+	<script type="text/javascript">
+        var image = document.getElementsByClassName('thumbnail');
+        new simpleParallax(image);
+    </script>
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="slideMenu.js"></script>
+</body>
+</html>
